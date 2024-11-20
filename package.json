@@ -1,0 +1,25 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "mobile": "npx cypress open --config-file mobile.config.js",
+    "headed": "npx cypress run --headed",
+    "chrome": "npx cypress run --browser=chrome",
+    "firefox": "npx cypress run --browser=firefox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paspy95/Automation-of-web-interface-testing.-Homework-6-Cypress-1.git"
+  },
+  "author": "Gudov Roman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paspy95/Automation-of-web-interface-testing.-Homework-6-Cypress-1/issues"
+  },
+  "homepage": "https://github.com/Paspy95/Automation-of-web-interface-testing.-Homework-6-Cypress-1#readme",
+  "description": "",
+  "dependencies": {
+    "cypress": "^13.16.0"
+  }
+}
